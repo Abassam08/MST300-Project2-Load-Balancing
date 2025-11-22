@@ -1,56 +1,27 @@
-MST300 Project 2 — Azure Internal Load Balancing (Seneca College | CSN Program)
+# MST300 Project 2: Load Balancing Websites
 
-Status: Completed • Course: MST300 • Institution: Seneca Polytechnic (CSN)
+## Project Overview
 
-Project Overview
+This project demonstrates how to create an internal load balancer in Azure that distributes traffic between two IIS web servers. A client VM in a separate virtual network accesses the load-balanced website through Azure Virtual Network peering and Private DNS.
 
-This project focuses on designing and deploying an internal load-balanced web application in Microsoft Azure.
-The goal is to demonstrate how Azure distributes traffic across multiple IIS web servers using an Internal Load Balancer (ILB), while a client VM in a separate VNet securely accesses the service using:
+## Architecture Components
 
-VNet Peering
+- **2 Virtual Networks** (with VNet peering)
+- **2 Web Servers** (Windows Server 2019 with IIS)
+- **1 Internal Load Balancer**
+- **1 Client VM** (Windows 10)
+- **1 Azure Bastion Host**
+- **1 Private DNS Zone**
 
-Private DNS Zones
+---
 
-Isolated network segments
+## Prerequisites
 
-This walkthrough replicates a realistic enterprise network design and builds core cloud-networking skills expected from IT Infrastructure and Cloud Support roles.
+- Azure for Students subscription
+- Assigned network address space (e.g., 131.131.131.0/24)
+- Basic understanding of Azure networking
 
-Architecture Components
-
-The environment includes:
-
-2 Virtual Networks (VNets) with bi-directional VNet peering
-
-2 IIS Web Servers (Windows Server 2019)
-
-1 Internal Load Balancer (ILB) for private load-balancing
-
-1 Windows 10 Client VM to test load distribution
-
-1 Azure Bastion Host for secure remote administration
-
-1 Private DNS Zone for internal name resolution
-
-📌 This design mirrors real-world Azure architectures used in production environments.
-
-Prerequisites
-
-To complete this project, you should have:
-
-An Azure for Students subscription
-
-A planned network address space (e.g., 131.131.131.0/24)
-
-A basic understanding of:
-
-Subnetting
-
-VNet peering
-
-DNS in Azure
-
-Resource group organization
-
+---
 ## Network Subnetting Plan
 
 | Network Component | Network Address | Usable IP Range | Subnet Mask | CIDR | Number of Hosts |
