@@ -414,6 +414,12 @@ This proves:
 
 ---
 
+### ☕ Support the Project
+If this guide helped you, consider supporting my work:  
+https://buymeacoffee.com/Asabra1
+
+---
+
 ## Project Rubric Components
 
 Your video demonstration should show:
