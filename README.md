@@ -1,3 +1,5 @@
+# MST300-Project2-Load-Balancing
+Azure load balancing project built for Seneca’s MST300 course. Includes an internal load balancer, two IIS web servers across availability zones, a client VM on a separate VNet, private DNS integration, and full VNet peering configuration. Demonstrates high-availability web hosting and traffic distribution in Azure.
 # MST300 Project 2: Load Balancing Websites
 
 ## Project Overview
@@ -22,6 +24,7 @@ This project demonstrates how to create an internal load balancer in Azure that 
 - Basic understanding of Azure networking
 
 ---
+
 ## Network Subnetting Plan
 
 | Network Component | Network Address | Usable IP Range | Subnet Mask | CIDR | Number of Hosts |
@@ -429,6 +432,28 @@ Your video demonstration should show:
 - [Azure Load Balancer Tutorial](https://docs.microsoft.com/azure/load-balancer/)
 - [Azure Virtual Network Peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)
 - [Azure Private DNS Zones](https://docs.microsoft.com/azure/dns/private-dns-overview)
+
+---
+
+## 🔎 Project Keywords (SEO & Discoverability)
+
+This project is related to the following topics and keywords:
+
+**Seneca College**, **Seneca Polytechnic**, **MST300**, **MST300 Project 2**,  
+**Load Balancing**, **Azure Load Balancer**, **Internal Load Balancer**,  
+**Azure Networking**, **VNet Peering**, **Private DNS**,  
+**Azure for Students**, **CSN Program**, **Networking Projects**,  
+**Seneca Networking Assignment**, **Windows Server IIS**, **Traffic Distribution**
+
+These keywords help students, instructors, and recruiters discover this project more easily through GitHub and search engines.
+
+---
+
+## 📘 Additional Notes
+
+This project was completed as part of the *Seneca – Computer Systems Networking (CSN)* program and serves as a hands-on demonstration of Azure networking, load balancing, virtual machines, and high-availability web hosting.
+
+Future students searching for **“MST300 Project 2 Load Balancing”** should find this repository helpful as a reference for architecture, configuration, verification, and troubleshooting.
 
 ---
 
